@@ -26,7 +26,7 @@ namespace Sitecore.Support.Shell.Applications.Security.RoleManager
             if (!IsValidRoleName(ref text))
             {
                 string[] arguments = new string[] { text };
-                SheerResponse.Alert("The role name \"{0}\" contains illegal characters.\n\nThe role name can only contain the following characters: A-Z, a-z, 0-9, ampersand and space.", arguments);
+                SheerResponse.Alert("The role name \"{0}\" contains illegal characters.\n\nThe role name can only contain the following characters: A-Z, a-z, 0-9, ampersand, space and underscore.", arguments);
             }
             else
             {
